@@ -99,7 +99,7 @@ cartcraft/
 │   │   ├── models/         # Data models
 │   │   └── utils/          # Helper functions
 │   ├── package.json
-│   └── README.md           # Backend-specific docs
+│   
 │
 ├── cartcraft/              # Frontend Next.js application
 │   ├── src/
@@ -108,7 +108,7 @@ cartcraft/
 │   │   ├── lib/           # Utilities and API client
 │   │   └── hooks/         # Custom React hooks
 │   ├── package.json
-│   └── README.md          # Frontend-specific docs
+│   
 │
 └── README.md              # This file
 ```
@@ -187,7 +187,7 @@ http://localhost:3000
 ### Base URL
 
 ```
-http://localhost:8000/api
+http://localhost:8000/api/v1
 ```
 
 ### Endpoints
@@ -308,7 +308,7 @@ NODE_ENV=development
 ### Frontend (`cartcraft/.env.local`)
 
 ```env
-NEXT_PUBLIC_API_URL=http://localhost:8000/api
+NEXT_PUBLIC_API_URL=http://localhost:8000/api/v1
 ```
 
 ---
@@ -430,7 +430,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## 👤 Author
 
-Your Name - [Your GitHub Profile](https://github.com/yourusername)
+Your Name - [Your GitHub Profile](https://github.com/ChinmayLale)
 
 ---
 
