@@ -10,7 +10,6 @@ import "./globals.css"
 export const metadata: Metadata = {
   title: "CartCraft - Premium Shopping Experience",
   description: "Discover curated products that elevate your lifestyle with CartCraft",
-  generator: "v0.app",
 }
 
 export default function RootLayout({
